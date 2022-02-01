@@ -2,10 +2,10 @@
 
 class Banco {
 
-    private static $dbNome = 'projetoCrud';
-    private static $dbHost = 'localhost';
-    private static $dbUsuario = 'root';
-    private static $dbSenha = 'abc123';
+    private static $dbNome = '';
+    private static $dbHost = '';
+    private static $dbUsuario = '';
+    private static $dbSenha = '';
     private static $cont = null;
 
     public function __construct() {
